@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -----navigation bar--- */
+
+nav {
+  font-weight: 800;
+  background-color:#F1F0E8;
+  
+
+
+  position: sticky !important;
+    top: 0px !important;
+    z-index: 2;
+}
+
+.navLeft {
+  
+float: left;
+  
+}
+
+.nav-item{
+    /* margin-left: 1em; */
+    /* align-items: center; */
+}
+
+.nav-item :hover{
+    text-decoration : underline;
+ color:#eca12c  !important;
+}
+
+.navLeft button {
+  padding: 4px 9px 7px 13px;
+  font-weight: 800;
+  background-color: #337ab7;
+  color: white;
+  width: 6em;
+  margin-left: 1em !important;
+}
+
+/* -----carousel-------- */
+.carousel-item{
+  height: 500px;
+}
+
+.carousel-item img{
+  /* opacity: 0.3; */
+}
+
+.carousel-item div h5{
+  font-size: 4em;
+  color:#ec9a2e;
+  font-weight: 700;
+} 
+.carousel-item div p{
+  color:hsl(34, 83%, 55%) ;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.carousel-caption{
+  padding-bottom: 7em;
+}
+.contact{
+  border: 0px;
+  border-radius: 3em;
+  background-color: #F1F0E8;
+  padding:7px !important ;
+}
+
+/* ------intro------ */
+.intro{
+  background-color: #EEE0C9;
+  margin: 0em 6em;
+}
+#house{
+  color:hsl(34, 83%, 55%) ;
+}
+
+#load{
+  background-color: #F1F0E8;
+  position: relative;
+    left: 36em;
+}
+
+/* ------projects-------- */
+.projects{
+  /*  margin:0em 6em 0em 6em; */
+  /* border: 3em #e0c859 solid; */
+}
+.project-img{
+  height: 40em;
+}
+.heading{
+  /* position: relative; */
+  /* left: 5em; */
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 3px;
+  color: #a02e23;
+}
+h2{
+  color: #01a358;
+}
+/* -----=plots------- */
+.plots{
+  margin:0em 6em 0em 6em;
+}
+.cell{
+  width: 30%;
+  height: 300px;
+  margin: 0 5px;
+  overflow: hidden;
+  border: 0px 5px 0px 5px !important;
+  border-color: hsl(0, 66%, 50%) !important;
+  border-radius: 10px;
+}
+
+/* -------maps---------- */
+.maps{
+  margin:0em 6em 0em 6em;
+}
+
+
+
+
+
+/* -----footer------ */
+form{
+  background-color: #eee0c9;  
+  height: 17em;
+}
+#signup{
+  font-size: 3em;
+   margin-top: 3em;
+   font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: green;
+
+}
+.signup{
+  position: relative;
+  bottom: 7.5em;
+  left: 9em ;
+  height: 4em;
+  
+}
+form input{
+  height: 5em;
+}
+
+
+
+
+/* -----footer---- */
+.end{
+  background-color: #96B6C5;
+}
+.remove-margin{
+  margin-left: 0em;
+  
+}
+
+.hover-effect:hover{
+   color:#a92520 !important;
+}
+body{
+  overflow-x: hidden;
+  
+}
+/* -----media quiry-------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .intro{
+    margin: 0em 1em;
+  }
+
+  .heading{
+    font-size: 2em;
+  }
+  #load{
+    position: relative;
+    left: 6.3em;
+    bottom: 1em;
+  }
+
+  footer>div{
+    flex-direction: column;
+  }
+  
+  .bottom{
+    flex-direction: column;
+  }
+
+  .carousel-item {
+    height: 176px !important;
+}
+
+.projects{
+  padding: 1em !important;
+}
+
+.plots {
+  margin: 0em 1em 2em 1em;
+}
+
+.cell {
+  width: 100%;
+  height: 297px;
+}
+
+.maps {
+  margin: 0em 1em 3em 1em;
+}
+
+#signup {
+  font-size: 2em;
+}
+
+.signup {
+  position: relative;
+  bottom: 4.5em;
+  left: 7.3em;
+}
+
+footer{
+  padding-top: 12px;
+  height: 78em;
+}
+
+footer p {
+  padding-left: 2em;
+  height: 5em;
+}
+.height-fix{
+  height: 2em;
+}
+.carousel-item{
+  padding-left: 1em;
+    padding-right: 1em;
+}
+h5{
+  width: 100% !important;
+}
+
+.fa-location-dot{
+  margin-top: 2em;
+}
+
+.nav-item {
+  margin-left: 0em;
+  /* align-items: center; */
+}
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .projects {
+    margin: 0em 6em 0em 6em;
+    /* border: 3em #e0c859 solid; */
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
