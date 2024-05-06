@@ -255,6 +255,11 @@ h5{
   margin-left: 0em;
   /* align-items: center; */
 }
+
+  #copy-right{
+  /* margin: 0px !important; */
+  padding-left:0px ;
+}
   }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
