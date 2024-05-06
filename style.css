@@ -236,6 +236,10 @@ footer p {
   padding-left: 2em;
   height: 5em;
 }
+.fa-location-dot {
+        margin-top: 1em;
+    }
+  
 .height-fix{
   height: 2em;
 }
